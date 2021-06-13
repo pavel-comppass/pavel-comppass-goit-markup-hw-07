@@ -1,0 +1,37 @@
+.team-section {
+  background-color: rgb(245, 244, 250);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.teammate-list {
+  display: flex;
+}
+.teammate-card {
+  /* flex-basis: calc((100% - 120px) / 4); */
+  background-color: var(--dark-background-text-color);
+  box-shadow: var(--card-shadow);
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+}
+.teammate-card:not(:last-child) {
+  margin-right: 30px;
+}
+.teammate-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.teammate {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.description {
+  color: var(--description-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  margin-top: 10px;
+}

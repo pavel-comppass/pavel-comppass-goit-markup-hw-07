@@ -1,0 +1,32 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter-button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button {
+  padding: 6px 22px;
+  font-family: inherit;
+  background-color: rgb(245, 244, 250);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: color 250ms var(--transmission-function),
+    background-color 250ms var(--transmission-function),
+    box-shadow 250ms var(--transmission-function);
+  &:hover,
+  &:focus {
+    color: var(--dark-background-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 2px 2px 0px #0000001f;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    box-shadow: 0px 3px 1px 0px #0000001a;
+  }
+}

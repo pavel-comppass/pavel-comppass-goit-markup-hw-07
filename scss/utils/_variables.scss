@@ -1,0 +1,14 @@
+:root {
+  --logo-font: "Raleway", sans-serif;
+  --content-font: "Roboto", sans-serif;
+  --accent-color: rgb(33, 150, 243);
+  --body-color: rgb(33, 33, 33);
+  --description-color: rgb(117, 117, 117);
+  --background-color: rgba(196, 196, 196, 1);
+  --footer-background-color: rgb(47, 48, 58);
+  --dark-background-text-color: rgb(255, 255, 255);
+  --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --project-description-border: 1px solid rgb(238, 238, 238);
+  --transmission-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
